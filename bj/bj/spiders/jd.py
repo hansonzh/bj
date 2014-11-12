@@ -6,7 +6,7 @@ class JdSpider(scrapy.Spider):
     name = "jd"
     allowed_domains = ["www.jd.com"]
     start_urls = (
-        'http://www.www.jd.com/',
+        'http://www.jd.com/1057746.html',
     )
 
     def parse(self, response):
